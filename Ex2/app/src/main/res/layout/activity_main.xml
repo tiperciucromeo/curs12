@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.romeotutorial.ex2.MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dreapta Sus"
+        app:layout_heightPercent="24%"
+        app:layout_marginLeftPercent="75%"
+        app:layout_widthPercent="24%"/>
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Stanga Sus"
+        app:layout_heightPercent="24%"
+        app:layout_widthPercent="24%"/>/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_heightPercent="24%"
+        app:layout_marginLeftPercent="38%"
+        app:layout_marginTopPercent="38%"
+        app:layout_widthPercent="24%"
+        android:text="Mijloc" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_heightPercent="24%"
+        app:layout_marginTopPercent="75%"
+        app:layout_widthPercent="24%"
+        android:text="Stanga Jos" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        app:layout_heightPercent="24%"
+        app:layout_marginLeftPercent="75%"
+        app:layout_marginTopPercent="75%"
+        app:layout_widthPercent="24%"
+        android:text="Dreapta Jos" />
+
+
+</android.support.percent.PercentFrameLayout>
